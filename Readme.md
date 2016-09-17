@@ -36,7 +36,7 @@
     - [26 Python的is](#26-pythonis)
     - [27 read,readline和readlines](#27-readreadlinereadlines)
     - [28 Python2和3的区别](#28-python23)
-    - [29 python的可变参数和关键字参数(*args **kw)
+    - 29 python的可变参数和关键字参数(*args **kw)
 - [操作系统](#)
     - [1 select,poll和epoll](#1-selectpollepoll)
     - [2 调度算法](#2-)
@@ -630,7 +630,9 @@ is是对比地址,==是对比值
 
 ## 29 python的可变参数和关键字参数(*args **kw)
 可变参数就是传入的参数个数是可变的，可以是1个、2个到任意个，还可以是0个。定义可变参数和定义一个list或tuple参数相比，仅仅在参数前面加了一个*号。
+
 可变参数允许你传入0个或任意个参数，这些可变参数在函数调用时自动组装为一个tuple,而关键字参数允许你传入0个或任意个含参数名的参数，这些关键字参数在函数内部自动组装为一个dict。
+
 例题参考：http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001431752945034eb82ac80a3e64b9bb4929b16eeed1eb9000
 
 
